@@ -1,3 +1,13 @@
+# SSH
+#### para entrar no modo "linux" usa-se esse comando. 
+#### ssh caua.vioto@10.111.9.113
+#### Depois disso ele pedirá a sua senha. Apos corretamente colocado você entrará no terminal Linux.
+
+# MariaDb / MySQL
+#### para entrar no sistema de banco de dados usa-se os seguintes comandos:
+#### mysql -u nome.usuario -p
+#### depois coloque a senha e pronto, estará no MariaDB.
+
 # Comandos Banco_de_Dados
 
 #### use [DbName] ---> Entra dentro da Db, para seu manuseio.
@@ -26,10 +36,10 @@
 ###    EXEMPLO:
 #### create table usuarios (
 
-#### -> id INT AUTO_IMCREMENT PRIMARY KEY, 
+#### -> id INT AUTO_INCREMENT PRIMARY KEY, 
 #### id: nome da chave
 #### INT: tipo de informação (inteiro)
-#### AUTO_IMCREMENT: o valor é acresentado de forma automática pelo banco de dados. 
+#### AUTO_INCREMENT: o valor é acresentado de forma automática pelo banco de dados. 
 #### PRIMARY KEY: seta a chave "id" como primary key da tabela
 
 #### -> nome VARCHAR(100),
